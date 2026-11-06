@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest a component or an improvement to the gallery.
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What would you like to do?
+      description: Describe the use case or problem, not just the control you want added.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain how the component or improvement would help on the phone or glasses.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or sketches
+      description: Optional. Only attach material you have permission to share.

@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in the gallery is not working as expected.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, tokens, invitation links or private information.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: For example, 0.1.9
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Where did this happen?
+      description: Phone/OS, Even app version and G2 firmware, or simulator version if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which component or scene did you choose? What did you change on the phone?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: You can attach a screenshot. Remove personal information first.
+    validations:
+      required: true
